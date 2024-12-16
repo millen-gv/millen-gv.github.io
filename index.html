@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/14e7ecde1d.js" crossorigin="anonymous"></script>
+    <title>Meu portifóolio</title>
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo">Millen
+    </a>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">projects</a>
+       
+    </nav>
+
+    <button class="gradient-btn"><a href="#contact" style="color: white;">Contacte-me</a></button>
+
+
+  </header>  
+  
+ <!-- ------------------------------ home ------------------------------ -->
+  <section class="home" id="home">
+    <div class="home-content">
+        <h1>Oi,  Eu sou <span> Millen </span></h1>
+        <h3>
+            Eu sou um <span>Desenvolvedor Web</span>
+        </h3>
+        <p style="width: 70%;">Sou estudante de Técnico em Informática com foco em desenvolvimento web
+            E especialista em manutenção e reparos Crio soluções práticas e eficientes
+            para atender às suas necessidades tecnológicas.</p>
+        
+        
+
+        <div class="button-group" style="margin-top: 20px;">
+            <a href="Junior pdf.pdf" download="" class="btn">Meu CV</a>
+            <a href="#contact" class="btn">Contact</a>
+        </div> 
+    </div>
+
+   <div class="home-img">
+        <img src="maximo1.jpg" height="500px">
+    </div>
+  </section>
+
+ <!-- ------------------------------ about ------------------------------ -->
+  <section class="about" id="about">
+    <div class="about-img">
+        <img src="Imagem do WhatsApp de 2024-11-24 à(s) 22.25.16_e993134d.jpg" height="500px">
+    </div>
+
+    <div class="about-content">
+        <h2>About></h2>
+        <p>Sou estudante do ITC, apaixonado por tecnologia e com grande habilidade nas áreas de informática, programação e redes. Sempre busco aprimorar meus conhecimentos e me destacar em tudo o que faço.</p>
+        <a href="Junior pdf.pdf" class="btn">MEU CV</a>
+    </div>
+  </section>
+
+  <!-- ------------------------------ services ------------------------------ -->
+   <section class="services" id="services">
+    <h2 class="heading">Services</h2>
+
+    <div class="services-container">
+        <div class="service-box">
+            <div class="service-info">
+                <i class="fa-solid fa-code"></i>
+                <h4>Website</h4>
+                <p>Criação de websites simples e funcionais, focados em apresentar informações de forma clara e eficiente</p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div class="service-info">
+                <i class="fa-solid fa-shop"></i>
+                <h4>Loja online</h4>
+                <p>Criação e gestão de lojas virtuais modernas e eficientes, com foco em experiência do cliente e integração de soluções práticas para vendas online.</p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div class="service-info">
+                <i class="fa-solid fa-blog"></i>
+                <h4>Blog</h4>
+                <p>Dicas práticas de manutenção e cuidados com dispositivos.</p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!-- ------------------------------ projects ------------------------------ -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Project</h2>
+
+        <div class="projects-box">
+            <div class="project-card">
+                
+                 <img src="projeto1.jfif" width="300px" height="300px">
+                <h3>Manutencao do Cooler</h3>
+                <p>Ofereço serviços em programação, redes e manutenção de computadores, com foco em soluções eficientes e personalizadas para atender às necessidades de cada cliente.</p>
+                
+            </div>
+
+            <div class="project-card">
+                <img src="projeto2.jfif" width="300px" height="300px">
+
+                <h3>Substituicao da Memoria Ram</h3>
+                <p>Ofereço serviços em programação, redes e manutenção de computadores, com foco em soluções eficientes e personalizadas para atender às necessidades de cada cliente.</p>
+                
+            </div>
+
+            <div class="project-card">
+                <img src="projeto1.jfif" width="300px" height="300px">
+
+                <h3>Manutencao do Cooler</h3>
+                <p> Trabalhei com um conjunto de treinamento em automação industrial, programando e conectando controladores lógicos programáveis para simular processos automatizados. Esse projeto foi fundamental para entender os princípios de automação e controle.(AFECCA)</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------ contact ------------------------------ -->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact</h2>
+
+        <form action=""
+        method="POST">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" name="number" placeholder="Phone Number" required>
+                    <input type="text" name="titulo" placeholder="Subject" required>
+                </div>
+                <div class="input-group-2">
+                    <textarea name="mensagem" placeholder="Your Message" cols="30" rows="10" required></textarea>
+                    <input type="submit" value="Enviar mensagem" class="btn">
+                </div>
+            </div>
+
+        </form>
+     </section>
+
+     <footer class="footer">
+        <p>© Millen | All Rigths Reserved </p>
+     </footer>
+</body>
+</html>
